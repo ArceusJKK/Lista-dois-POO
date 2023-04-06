@@ -1,0 +1,29 @@
+import java.util.Scanner;
+
+public class EXERCICIO1 {
+
+    public static void main(String[] args) {
+
+        Scanner Scanf = new Scanner(System.in);
+
+        System.out.println("Digite a sua idade: ");
+        int idade = Scanf.nextInt();
+
+        int indantilA = 7;
+        int infantilB = 10;
+        int JuvenilA = 13;
+        int JuvenilB = 17;
+
+                if(idade <= indantilA){
+            System.out.println("infantil A");
+        } else if (idade <= infantilB) {
+                    System.out.println("Infantil B");
+                } else if (idade <= JuvenilA) {
+                    System.out.println("Juvenil A");
+                } else if (idade <= JuvenilB) {
+                    System.out.println("Juvenil B");
+                }else {
+                    System.out.println("Adulto");
+                }
+    }
+}
